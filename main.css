@@ -1,0 +1,102 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: rgb(7, 14, 24);
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+header img {
+    height: 80px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 840px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+
+form input {
+    font-size: 20px;
+    font-weight:left;
+    background-color: rgba(0, 0, 0, 0.815);
+    border: none;
+    border-bottom: 2px solid rgb(228, 59, 59);
+    padding: 12px;
+    border-radius: 10px;
+}
+
+form button {
+    background-color: rgb(228, 59, 59);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: none;
+    cursor:pointer;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    text-align: left;
+    border-bottom: 2px solid rgb(230, 59, 59);
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: left;
+    font-size: 20px;
+    border-bottom: 2px solid rgba(226, 59, 59, 0.5);
+}
+
+table td img {
+    height: 20px;
+}
+
+.resultado {
+    text-align: left;
+    padding: 20px;
+    font-weight: bold;
+    color:rgb(7, 14, 24);
+    border-radius: 100px;
+}
+
+.aprovado {
+    background-color: green;
+}
+
+.reprovado {
+    background-color: red;
+}
